@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bibliografia</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blog-post.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">ICN - Página Inicial</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                    <a href="bibliografia.html">Bibliografia</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <br><br>
+                <h1>Bibliografia</h1>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+
+                <hr>
+
+                <!-- Post Content -->
+                <p class="lead"><a href="http://www.ccnx.org/">CCNX</a>, <a href="http://www.gta.ufrj.br/publicacoes/">GTA</a>, <a href="https://www.land.ufrj.br/publications/publications.php?page=papers">LAND</a></p>
+    <p> CORRIGIR FORMATAÇÃO PARA: as referências devem seguir um padrão de artigo técnico (tipo ABNT, recomendadas em projetos finais do DEL, de teses da COPPE ou de organismos profissionais como o IEEE);
+    <p>    Xylomenos, G., Ververidis, C. N., Siris, V. A., Fotiou, N., Tsilopoulos, C., Vasilakos, X.,Katsaros, K. V., and Polyzos, G. C. (2014). A survey of information-centric networking research. Communications Surveys and Tutorials. IEEE COMMUNICATIONS SURVEYS & TUTORIALS, VOL. 16, NO. 2, SECOND QUARTER 2014.</p>
+
+    <p>De Souza e Silva, E., Domingues, G., Leão, R., Menasché, D. A name resolution assisted ICN design, supported by opportunistic search, routing and caching policies. LAND/UFRJ.</p>
+
+    <p>Kurose, J., Information-centric networking: The evolution from circuits to packets to content. University of Massachusetts.</p>
+
+    <p>Jannibelli, D. Simulador para um modelo de busca oportunística de conteúdos em redes orientadas a informação. LAND/UFRJ - Dissertação de mestrado.</p>
+
+    <p>Torres, J., Ferraz, L., Duarte, O., Redes Orientadas a Conteúdo Baseadas em Controladores Hierárquicos. GTA/COPPE/UFRJ.</p>
+
+    <p>Guimarães, P., Ferraz L., Torres, J., Mattos, D., Murillo, A., Andreoni, M., Alvarenga, I., Rodrigues, C., Duarte, O,. Experimenting Content-Centric Networks in the Future Internet Testbed Environment. GTA/COPPE/UFRJ.</p>
+
+    <p>Koponen, T., Chawla, M., Chun, B., Ermolinskiy, A., Kim, K., Shenker, S., Stoica, I. A Data-Oriented (and Beyond) Network Architecture</p>
+
+    <p>Wood, C., Uzun, E., Flexible End-to-End Content Security in CCN. Palo Alto Research Center</p>
+
+
+                <hr>
+
+               
+
+            </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+              
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Blog Categories</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>Side Widget Well</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <center><a href="http://www.gta.ufrj.br/">GTA</a></center>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
