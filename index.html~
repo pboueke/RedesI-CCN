@@ -64,6 +64,7 @@
 
         <!-- Heading Row -->
         <div class="row">
+            <br><br><br>
             <div class="col-md-8">
                 <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt="">
             </div>
@@ -71,7 +72,7 @@
             <div class="col-md-4">
                 <h1>Information Centred Networks</h1>
                 <p>Resumo no entorno de 100 palavras</p>
-                <a class="btn btn-primary btn-lg" href="ICNdefinition.html">Conceito</a>
+                <a class="btn btn-primary btn-lg" href="conceito.html">Conceito</a>
             </div>
             <!-- /.col-md-4 -->
         </div>
@@ -107,7 +108,27 @@
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
+                <h2>Heading 4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                <a class="btn btn-default" href="#">More Info</a>
+            </div>
+            <div class="col-md-4">
                 <h2>Heading 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                <a class="btn btn-default" href="#">More Info</a>
+            </div>
+            <div class="col-md-4">
+                <h2>Heading 5</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                <a class="btn btn-default" href="#">More Info</a>
+            </div>
+            <div class="col-md-4">
+                <h2>Heading 5</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                <a class="btn btn-default" href="#">More Info</a>
+            </div>
+            <div class="col-md-4">
+                <h2>Heading 6</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
                 <a class="btn btn-default" href="#">More Info</a>
             </div>
@@ -122,7 +143,7 @@
                     <br><br>
                     <p><center>"Este trabalho foi totalmente produzido pelos autores que declaram não terem violado os direitos autorais de terceiros, sejam eles pessoas físicas ou jurídicas. Havendo textos, tabelas e figuras transcritos de obras de terceiros com direitos autorais protegidos ou de domínio público tal como idéias e conceitos de terceiros, mesmo que sejam encontrados na Internet, os mesmos estão com os devidos créditos aos autores originais e estão incluídas apenas com o intuito de deixar o trabalho autocontido. O(s) autor(es) tem(êm) ciência dos Artigos 297 a 299 do Código Penal Brasileiro e também que o uso do artifício de copiar/colar texto de outras fontes e outras formas de plágio é um ato ilícito, condenável e passível de punição severa. No contexto da Universidade a punição não precisa se restringir à reprovação na disciplina e pode gerar um processo disciplinar que pode levar o(s) aluno(s) à suspensão;"</center></p>
                     <br><br>
-                    <center><a href="http://www.gta.ufrj.br/">GTA/UFRJ</a></center>
+                    <center><a href="http://www.gta.ufrj.br/">GTA/COPPE/UFRJ</a></center>
                 </div>
             </div>
         </footer>
