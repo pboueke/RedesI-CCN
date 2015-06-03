@@ -91,7 +91,7 @@
                 <p>Nesse modelo, assumimos que todos os nós de um domínio estão conectados virtualmente em uma rede IP, portanto a escolha do próximo nó dentro do domínio atual pode ser feita de maneira que a probabilidade de procurarmos o conteúdo em determinado nó é igual para qualquer nó.</p>
                 <p>Cada conteúdo em cada roteador possui um contador, que armazena quantas requisições foram feitas por aquele conteúdo que passaram por aquele nó. Ao atingir um limite superior, o conteúdo em questão é armazenado no cache, de maneira que assim conteúdos menos desejados não ocupem espaço no cache. Esse contador é decrementado somente com o passar do tempo, e se algo no cache possui seu contador retornando ao limite inferior, ele é desalocado do cache.</p>
 				<p>É importante notar que, ao transmitir o conteúdo para o usuário, ele nunca é armazenado mais de uma vez no mesmo domínio na mesma transmissão, ou seja, se na busca pelo conteúdo foram visitados diversos nós em um domínio, ao transmiti-lo de volta ele só será armazenado em um nó daquele domínio,de maneira que não saturemos um domínio com o mesmo conteúdo por causa do passeio aleatório.</p>
-				<p><i>[1] De Souza e Silva, E., Domingues, G., Leão, R., Menasché, D. A name resolution assisted ICN design, supported by opportunistic search, routing and caching policies. LAND/UFRJ.</i></p>
+				<p><i>[1] Refrência</i></p>
 
                                <hr>
 
