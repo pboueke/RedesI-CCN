@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Template</title>
+    <title>Experimentos com o FITS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -73,21 +73,31 @@
 
                 <!-- Title -->
                 <br><br>
-                <h1>Blog Post Title</h1>
-
-                <hr>
-
-                <!-- Preview Image -->
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <h1>Experimentos com o FITS</h1>
 
                 <hr>
 
                 <!-- Post Content -->
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+                <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O FITS (<a href="http://www.gta.ufrj.br/fits/">Future Internet Testbed with Security</a>) é um ambiente de virtualização de redes que foi utilizado para a realização de experimentos [<a href="bibliografia.html">6</a>] em uma CCN. Tais experimentos visaram o estudo do comportamento e fluxo de uma rede nesse modelo, levando a resultados promissores</p>
+                <br>
+                <img src="images/fits.png" width="90%">
+                <center><p><i>Imagem 1. FITS experimentation platform. [<a href="bibliografia.html">6</a>]</i></p></center>
+                <br>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A rede utilizada nesse projeto é baseada no interesse e na paridade do pacote de conteúdo e foi implementada como uma rede virtual no FITS, estando ilustrada na imagem 2. A rede redireciona o interesse por um determinado conteúdo ao publicador que, então, envia o conteúdo seguindo o caminho pelo qual o interesse foi direcionado. Nessa rede o roteamento se dá por meio de três estruturas principais: Content Store (CS), Forwarding Information Base (FIB) e Pending Interest Table (PIT). Esta armazena os dados relativos às interfaces com as quais os pacotes de interesse foram encaminhados Essa funciona tal qual o IP na internet, estabelecendo uma tabela de prefixos de forma a hierarquizar a rede. Aquela é a estrutura responsável pelos caches da rede.
+                </p>
+                <br>
+                <img src="images/fits2.png" width="90%">
+                <center><p><i>Imagem 2. Redes virtuais usadas nos experimentos. [<a href="bibliografia.html">6</a>]</i></p></center>
+                <br>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um dos experimentos realizados consistiu em comparar os tempos de download entre uma CCN e uma rede TCP/IP. Foram estabelecidos dois casos: In-island, com todas as máquinas virtuais contidas em um dos nós da rede, e Across Island, no qual há dois nós e as máquinas estão distribuídas pela internet. A comparação do tempo de download entre a rede TCP e a CCN, para o primeiro caso, é vista no item b da imagem 3, enquanto a comparação entre os dois casos estudados é vista no item a da imagem 3.</p>
+                <br>
+                <img src="images/fits_res1.png" width="90%">
+                <center><p><i>Imagem 3. Tempos de download. [<a href="bibliografia.html">6</a>]</i></p></center>
+                <br>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esses resultados indicam que, como era esperado, as taxas de download para a CCN superam as da rede TCP quando existem mais de um usuário fazendo o download do arquivo observado. Ademais, notamos que o comportamento para ambos os casos de rede CCN estudados é similar.
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outros pontos observados estão relacionados ao overhead proporcionado pela implementação proposta. Como o conteúdo não se encontra inicialmente no nó mais próximo, ele deve ser descarregado nesse nópara que a transmissão ao destino possa começar, o que provoca um delay inicial com relação à rede TCP. Além disso, como a CCN está utilizando IP, existe uma carga adicional ocasionada por seu cabeçalho. Porfim, apesar do overhead de 19% introduzido em relação à rede TCP, o tempo de download, conforme o número de usuários aumenta, foi aproximadamente 25% menor.
+                </p>
 
                                <hr>
 
@@ -110,21 +120,21 @@
                                 </li>
                                 <li><a href="conceito.html">2 - Conceito</a>
                                 </li>
-                                <li><a href="#">3 - Modelos Gerais</a>
+                                <li><a href="modelosgerais.html">3 - Modelos Gerais</a>
                                 </li>
-                                <li><a href="#">4 - Modelo do FITS</a>
+                                <li><a href="fits.html">4 - Experimentos com o FITS</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#">5 - Modelo de Buscas Oportunísticas</a>
+                                <li><a href="buscaoportunistica.html">5 - Modelo de Buscas Oportunísticas</a>
                                 </li>
-                                <li><a href="#">6 - Críticas e Desafios</a>
+                                <li><a href="desafios.html">6 - Críticas e Desafios</a>
                                 </li>
-                                <li><a href="#">7 - Conclusão</a>
+                                <li><a href="conclusao.html">7 - Conclusão</a>
                                 </li>
-                                <li><a href="#">8 - Perguntas</a>
+                                <li><a href="perguntas.html">8 - Perguntas</a>
                                 </li>
                             </ul>
                         </div>
