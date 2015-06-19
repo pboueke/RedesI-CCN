@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Template</title>
+    <title>Críticas e Desafios</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -73,21 +73,21 @@
 
                 <!-- Title -->
                 <br><br>
-                <h1>Blog Post Title</h1>
-
-                <hr>
-
-                <!-- Preview Image -->
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <h1>Críticas e Desafios</h1>
 
                 <hr>
 
                 <!-- Post Content -->
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+                <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Como foi discutido, a arquitetura de redes centradas em conteúdo é recente e não existem implementações em larga escala de um modelo como esse. Por esse motivo vários pontos a cerca de sua implementação ainda estão em discussão, vide os <a href="modelosgerais.html">modelos apresentados</a>. Nesse sentido, existem problemas e desafios a serem analisados e superados.
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um desses desafios é a questão da privacidade e do anonimato. Em uma rede de caches, na qual o contudo estará disperso em, potencialmente, diversos nós, como garantir esses dois quesitos? Redes híbridas, criptografia e outras técnicas aplicadas ao roteamento de conteúdos poderiam ser estudadas a fim de tentar garantir esses pontos. É necessário garantir que aquele conteúdo veio, de fato, do seu publisher, e não de uma fonte maliciosa tentando se passar pelo mesmo.
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seguindo essa linha, outro ponto importante é a questão de segurança, que deve ser completamente reformulada, pois atualmente ela é feita no canal de transmissão, garantindo a integridade da mensagem. Em redes CCN, contudo, o canal de transmissão é incerto, pois não sabemos onde acharemos o conteúdo, portanto, passamos essa tarefa para uma assinatura no arquivo pelo produtor, que pode ser verificada a qualquer momento, similar à ideia de uma chave de criptografia.
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na questão da escalabilidade da rede, ao tratarmos da internet, devemos considerar uma rede de distribuição de conteúdos que tem apresentado crescimento exponencial de tráfego nos últimos anos. Os muitos modelos apontam para diferentes caminhos tanto no redirecionamento de conteúdo quanto na implementação dos caches da rede, sendo que ainda existem novas propostas a serem avaliadas. Seja por meio de tabelas hierárquicas, buscas oportunísticas ou contadores simples, é importante que as técnicas empregadas sejam validadas e, enfim, tornem a arquitetura CCN digna do título de Internet do Futuro.
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por fim, um dos pontos abordados quando observamos o tema ser mencionado é a questão da implementação física e, possivelmente, final, de uma rede CCN.  Fora a validação dos conceitos, é fundamental observar os custos e impactos da criação de uma rede de caches físicos. Por se tratar do tema, vale mencionar o projeto <a href="http://www.nserc-crsng.gc.ca/Business-Entreprise/How-Comment/Networks-Reseaux/SAVI_AIIV_eng.asp">SAVI</a>, cujo modelo e ambiente de testes iluminam uma visão interesante a cerca da possível implementação de uma rede inteligente com possível aplicação em um modelo CCN.
+                </p>
 
                                <hr>
 
